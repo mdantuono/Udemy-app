@@ -19,6 +19,7 @@
   "homepage": "https://github.com/mdantuono/Udemy-app#readme",
   "dependencies": {
     "body-parser": "^1.18.2",
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "mongodb": "^3.0.5"
   }
 }
