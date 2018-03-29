@@ -10,7 +10,7 @@ module.exports.reviewsGetAll = function(req, res) {
         .findById(hotelId)
         .select('reviews')
         .exec(function(err, doc) {
-            console.log("Returned doc", doc)
+            console.log("Returned doc", doc);
             res
                 .status(200)
                 .json( doc.reviews );
@@ -27,7 +27,7 @@ module.exports.reviewsGetOne = function(req, res) {
         .findById(hotelId)
         .select('reviews')
         .exec(function(err, hotel) {
-            console.log("Returned doc", hotel)
+            console.log("Returned doc", hotel);
             var review = hotel.reviews.id(reviewId);
             res
                 .status(200)
@@ -102,7 +102,7 @@ module.exports.reviewsUpdateOne = function(req, res) {
         .findById(hotelId)
         .select('reviews')
         .exec(function(err, doc) {
-            var thisReview
+            var thisReview;
             var response = {
                 status : 200,
                 message : []
@@ -161,7 +161,7 @@ module.exports.reviewsDeleteOne = function(req, res) {
         .findById(hotelId)
         .select('reviews')
         .exec(function(err, doc) {
-            var thisReview
+            var thisReview;
             var response = {
                 status : 200,
                 message : []
