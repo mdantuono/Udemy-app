@@ -7,9 +7,9 @@ var reviewSchema = new mongoose.Schema({
     },
     rating : {
         type : Number,
+        required : true,
         min : 0,
-        max : 5, 
-        required : true
+        max : 5 
     },
     review : {
         type : String,

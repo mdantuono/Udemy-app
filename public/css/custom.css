@@ -4,5 +4,10 @@
     width: 100%;
     height: 60px;
     line-height: 60px;
-    background-color: #6610f2;
+    background-color: #20c997;
+}
+#body {
+   min-height: 400px;
+   margin-bottom: 100px;
+   clear: both;
 }
