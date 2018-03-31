@@ -6,8 +6,12 @@
     line-height: 60px;
     background-color: #20c997;
 }
+
+.container {
+    padding: 60px 0 0 0;
+}
+
 #body {
-   min-height: 400px;
    margin-bottom: 100px;
    clear: both;
 }
