@@ -25,4 +25,4 @@ function RegisterController($http) {
             }
         }
     };
-};
+}
