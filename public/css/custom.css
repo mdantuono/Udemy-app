@@ -2,16 +2,22 @@
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: 60px;
-    line-height: 60px;
+    height: 50px;
+    line-height: 40px;
     background-color: #20c997;
+    border-top: 1px black solid
 }
 
-.container {
-    padding: 60px 0 0 0;
+html {
+    position: relative;
+    min-height: 100%;
 }
-
-#body {
-   margin-bottom: 100px;
-   clear: both;
+body {
+    margin-bottom: 90px;
+}
+body > .container {
+    padding-top: 60px;
+}
+.padded {
+    padding-top: 30px
 }
